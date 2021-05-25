@@ -1,0 +1,422 @@
+/* © Karl-Erik Kald*/
+div.container {
+
+    padding: 0;
+    margin: 0px;
+    padding-top: 2.5em;
+    border: 0px solid lightblue;
+    background-color: whitesmoke;
+    line-height: 150%;
+    min-height: 150%;
+    padding-bottom: 10em; 
+    padding-right: 5%;
+    /* padding-left: 15%; */
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    clear: both;
+    z-index: 1;
+
+}
+#clock, #date {
+    padding-left: 2em;
+}
+#clock {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+#date {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+header, footer {
+    padding-bottom: 1em;
+    padding-top: 1em;    
+    color: whitesmoke;
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: darkblue;
+    width: 100%;
+    box-shadow: 1px 3px 10px 1px #888888;
+    z-index: 2;
+    clear: both;
+}
+footer {
+    bottom: 0px;
+    position: absolute;
+    height: 2.5em;
+    box-shadow: 1px 3px 10px 1px #888888;
+
+
+}
+
+header {
+    top: 0px;
+    height: 2.5em;
+    position: relative;
+}
+header h1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer h3 {
+    padding: 0;
+    margin: 0;
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+aside {
+    float: left;
+    position: fixed;
+    /* top: 4em; */
+    bottom: 6.5px;
+    overflow: hidden;
+    background-color: lavender;
+    height: 70vh;
+    margin: 0;
+    padding-top: 6.5em;
+    padding-right: 7.37em;
+    z-index: 1;
+}
+
+main {
+    /* margin-left: 190px; */
+    padding:0;
+    margin-left: 15em;
+    border-left: 0px solid blueviolet;
+    background-color: whitesmoke;
+    padding-left: 5em;
+    /* padding-top: 2em; */
+    clear: both;
+    padding-bottom: 6.5em;
+    /* padding-bottom: 2em; */
+    /* min-height: 100%; */
+    /* min-width: 80%; */
+    min-height: 70vh;
+    overflow: visible;
+    display: inline-block;
+    position: static;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    z-index: 1;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    overflow: visible;
+    display: inline-block;
+    background-color: lavender;
+    z-index: 3;
+}
+nav {
+    z-index: 2;
+    position: sticky;
+    height: 2.5em;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin-right: 0;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10em;
+    box-shadow: 1px 2px 2px 1px #888888;
+    overflow: hidden;
+    background-color: blueviolet;
+
+}
+h1 {
+    font-weight: 300;
+}
+h2 {
+    font-weight: 300;
+}
+h3 {
+    font-weight: 300;
+}
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: plum;
+}
+
+form {
+    padding-top : 2em;
+    padding-left : 2em;
+    padding-bottom : 2em;
+    padding-right: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* width: fit-content; */
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #888888;
+    box-shadow: 1px 2px 3px 1px #888888;
+    border-radius: 4px;
+
+}
+table {
+    background-color: darkblue;
+    border-spacing: 0;
+    /* margin-right: 2em; */
+    padding-bottom: 0.9px;
+    overflow-x: auto;
+    border-top: 1px solid darkblue;
+    border-right: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+
+}
+
+th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-left: 1em;
+    padding-right: 2em;
+    font-size: large;
+    color: beige;
+    background-color: aliceblue;
+
+}
+
+td {
+    background-color: aliceblue;
+    border-left: 1px solid darkblue;
+    padding-left: 1em;
+    padding-right: 2em;
+    border-top: 1px solid darkblue;
+
+}
+input[type=submit]{
+    background-color: paleturquoise;
+    border: solid 1px paleturquoise;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+    padding: 13px;
+}
+input[type=submit]:hover{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+input[type=submit]:checked{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    box-shadow: 0px 0px 0px 0px #888888;
+
+}
+input[type=text] {
+    margin: 2em;
+    background-color: white;
+    border: solid 1px #888888;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    width: 350px;
+    padding: 13px;
+
+}
+button {
+    background-color: paleturquoise;
+    border: solid 1px paleturquoise;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+    padding: 13px;
+}
+button:hover{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+
+input[type=button] {
+    background-color: paleturquoise;
+    border: solid 1px paleturquoise;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+    padding: 13px;
+}
+input[type=button]:hover {
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+select {
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 13px;
+    background-color: paleturquoise;
+    border: solid 1px paleturquoise;
+    border-radius: 4px;
+    width: 250px;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+
+
+}
+select:hover{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+option{
+    background-color: whitesmoke;
+    border: solid 1px white;
+    border-radius: 4px;
+    width: 250px;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+}
+option:hover {
+    background-color: lightblue;
+    color: wheat;
+}
+#write_newFileField {
+    display: none;
+}
+#write_existingFileField {
+    display: none;
+}
+#view_existingFileField {
+    display: none;
+}
+#name {
+    background-color: antiquewhite;
+    font: bold;
+    border-collapse: collapse;
+}
+#button-container {
+  display: inline;
+}
+#bcontain{
+  padding-right: 0px;
+}
+@media screen and (max-width: 700px) {
+    aside {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: grid;
+    }
+    .sidebar a {
+      float: left;
+    }
+    div.content {
+        margin: 0;
+        position: relative;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        display: inline-block;
+
+    }
+    footer {
+      position: fixed;
+      height: auto;
+      width: 100%;
+    }
+    main {
+      margin-left: 0px;
+      padding-left: 0px;
+      height: auto;
+      position: static;
+      display: inline-block;
+
+    }
+    nav {
+        z-index: 1;
+        position: relative;
+        height: 2.5em;
+        top: 0px;
+        top: 0;
+        overflow: visible;
+    }
+
+  }
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  aside {
+      float: none;
+      text-align: center;
+  }
+  main {
+    height: auto;
+    text-align: center;
+    margin-left: 0;
+  }
+  body {
+    position: relative;
+    height: auto;
+
+}
+#dummy {
+    padding-top: 29%;
+    position: relative;
+}
+}

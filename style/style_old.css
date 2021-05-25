@@ -1,0 +1,70 @@
+div.container {
+    width: 100%;
+    margin: 0px;
+    border: 1px solid lightblue;
+    line-height: 150%;
+}
+
+header, footer {
+    padding: 0.5em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: lightblue;
+    clear: left;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+aside {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+main {
+    margin-left: 190px;
+    border-left: 1px solid lightblue;
+    padding: 1em;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: powderblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: aliceblue;
+    text-underline-style: double;
+    text-decoration: underline;
+}
